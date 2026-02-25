@@ -6,8 +6,6 @@ import { EnvConfigModule } from '../../env-config.module';
 describe('EnvConfigService unit tests', () => {
   let sut: EnvConfigService;
 
-
-
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       imports: [EnvConfigModule.forRoot()],
